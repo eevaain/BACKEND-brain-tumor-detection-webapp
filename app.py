@@ -25,7 +25,7 @@ def test():
     photoToArray = np.asarray(resized_img)
     # print(photoToArray)
 
-    loaded_model = tf.keras.models.load_model('./app/saved_brain_tumor_cnn_model.h5')
+    loaded_model = tf.keras.models.load_model('saved_brain_tumor_cnn_model.h5')
     # test_image = image.load_img(photo, target_size = (256, 256))
     # test_image = image.img_to_array(test_image)
     # ^^ converts PIL image to numpy array
